@@ -1,2 +1,2 @@
 # Corezoid
-Python 3.5 module to send and modify tasks at 
+Python 3.5 module for sending and modifying tasks to Corezoid Processes
