@@ -84,7 +84,7 @@ class Corezoid():
     # Make a signature to sign the request
     # Signature: hex( sha1({GMT_UNIXTIME} + {API_SECRET} + {CONTENT} + {API_SECRET}) )
     def make_sign(self, timestamp, content):
-        s = (str(timestamp) + self._api_secret + content + self._api_secret)
+        s = (str(timestamp) + self._api_secret + content + self._api_secret).encode('utf-8')
         return hashlib.sha1(s).hexdigest()
 
     # Check a signature validity
