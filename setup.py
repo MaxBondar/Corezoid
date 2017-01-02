@@ -8,7 +8,7 @@ setup(
   author_email = 'max.bondr@gmail.com',
   url = 'https://github.com/MaxBondar/Corezoid',
   license='MIT',
-  download_url = 'https://github.com/MaxBondar/Corezoid/tarball/0.1.2',
+  download_url = 'https://github.com/MaxBondar/Corezoid/tarball/0.1.0',
   keywords = ['corezoid', 'send', 'modify', 'task', 'process engine', 'event processing'],
   classifiers = [],
 )
