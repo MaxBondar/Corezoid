@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(
   name = 'Corezoid',
   packages = ['Corezoid'],
-  version = '0.1.2',
+  version = '0.1.5',
   description = 'A library for sending and modifying task to Corezoid.',
   author = 'Max Bondar',
   author_email = 'max.bondr@gmail.com',
