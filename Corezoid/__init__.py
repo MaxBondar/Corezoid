@@ -1,6 +1,8 @@
-__version__ = '0.1.5'
-
 #!/usr/bin/env python3.5
+__version__ = '0.1.6'
+
+from Corezoid.Corezoid import Corezoid
+
 from json import dumps
 from time import time
 import requests
