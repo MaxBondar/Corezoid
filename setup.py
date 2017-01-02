@@ -10,5 +10,5 @@ setup(
   license='MIT',
   download_url = 'https://github.com/MaxBondar/Corezoid/tarball/0.1.2',
   keywords = ['corezoid', 'send', 'modify', 'task', 'process engine', 'event processing'],
-  classifiers = []
+  classifiers = [],
 )
