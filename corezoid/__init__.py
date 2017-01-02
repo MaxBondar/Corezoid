@@ -1,6 +1,6 @@
 #!/usr/bin/env python3.5
 
-__version__ = '0.1.0'
+__version__ = '0.1.1'
 
 from json import dumps
 from time import time
