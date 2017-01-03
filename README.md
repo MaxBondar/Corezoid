@@ -4,7 +4,7 @@ This module helps you sending and modifying tasks to Corezoid processes.
 ### Installation
 pip install Corezoid
 
-## Usage example
+### Usage example
 ```
 from Corezoid import Corezoid
 
