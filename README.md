@@ -38,7 +38,6 @@ def modify_task(ref, data):
 
 ```
 
-That's it! 
-Let's start using Corezoid.
+### That's it! Let's start using Corezoid.
 
 
