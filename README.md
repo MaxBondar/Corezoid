@@ -1,7 +1,6 @@
 # Corezoid SDK for Python 3.x
------
 This module helps you sending and modifying tasks to Corezoid processes.
------
+
 # Usage
 ```
 from Corezoid import Corezoid
