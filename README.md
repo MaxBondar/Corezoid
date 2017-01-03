@@ -1,10 +1,12 @@
 # Corezoid SDK for Python 3.x
 This module helps you sending and modifying tasks to Corezoid processes.
 
-### Installation
+## Installation
+```
 pip install Corezoid
+```
 
-### Usage example
+## Usage example
 ```
 from Corezoid import Corezoid
 
