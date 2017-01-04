@@ -78,11 +78,11 @@ class Corezoid():
         url = self.make_url(timestamp, content)
         try:
             r = requests.post(url, content)
-            if r.status_code == 200:
-                self.task = [] # Clear task object
+            self.task = []  # Clear task object
             return dumps({'status_code': r.status_code, 'response': r.text})
         except requests.RequestException as e:
             return e
+
 
     # Make a signature to sign the request
     # Signature: hex( sha1({GMT_UNIXTIME} + {API_SECRET} + {CONTENT} + {API_SECRET}) )
