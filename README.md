@@ -45,6 +45,7 @@ def modify_task(ref, data):
 
 ## Important Notes
 Max. task size: __128 000 bytes__.
+
 If you have a large __data__ object try to split it into a few tasks.
 
 ### That's it! Let's start using Corezoid.
