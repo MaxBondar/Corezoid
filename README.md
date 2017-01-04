@@ -27,18 +27,16 @@ c = Corezoid(API_KEY, API_SECRET, PROCESS_ID)
 # There are 2 methods available: send and modify tasks.
 # Learn more about Corezoid API: https://doc.corezoid.com/en/api/upload_data/
 
+# Input parameters:
+# ref: string.
+# data: JSON.
+
 # Send a new task to Corezoid process
 def send_task(ref, data):
-    # ref: string. Can be a custom value. By default it's a timestamp. 
-    # data: JSON.
-  
     c.create_task(ref, data)
 
 # Modify an existing task by ref at Corezoid process
 def modify_task(ref, data):
-    # ref: string. Can be a custom value. By default it's a timestamp. 
-    # data: JSON.
-
     c.modify_task(ref, data)
 
 ```
