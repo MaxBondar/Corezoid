@@ -28,8 +28,8 @@ c = Corezoid(API_KEY, API_SECRET, PROCESS_ID)
 # Learn more about Corezoid API: https://doc.corezoid.com/en/api/upload_data/
 
 # Input parameters:
-# ref: string.
-# data: JSON.
+# ref: string
+# data: JSON
 
 # Send a new task to Corezoid process
 def send_task(ref, data):
