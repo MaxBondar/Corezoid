@@ -6,7 +6,7 @@ This module helps you sending and modifying tasks to Corezoid processes.
 pip install Corezoid
 ```
 
-### Requirements 
+## Requirements 
 ```
 pip install requests
 ```
