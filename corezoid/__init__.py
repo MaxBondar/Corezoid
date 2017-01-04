@@ -78,7 +78,8 @@ class Corezoid():
         url = self.make_url(timestamp, content)
         try:
             r = requests.post(url, content)
-            self.task = []  # Clear task object
+            if r.status_code == 200:
+                self.task = []  # Clear task object
             return dumps({'status_code': r.status_code, 'response': r.text})
         except requests.RequestException as e:
             return e
