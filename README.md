@@ -6,7 +6,12 @@ This module helps you sending and modifying tasks to Corezoid processes.
 pip install Corezoid
 ```
 
-## Usage example
+### Requirements 
+```
+pip install requests
+```
+
+## Quick Start
 ```
 from Corezoid import Corezoid
 
